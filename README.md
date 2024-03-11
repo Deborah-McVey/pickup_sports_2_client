@@ -142,6 +142,22 @@ concludes video "Rails Seeds File - Populate users and posts"
 
 # begin video "Fetching Events with Pagination"
 
+# styles.scss for global styles
+
+ng g c shared/components/navigation
+
+go to pickup_sports_2_api to install gem 'kaminari' for pagination
+
+create event model
+
+ng g class shared/models/event
+
+create event service
+
+ng g s core/services/event
+
+
+
 
 
 
