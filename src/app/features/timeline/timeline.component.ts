@@ -11,7 +11,7 @@ import { PostService } from '../../core/services/post.service';
   styleUrl: './timeline.component.scss'
 })
 export class TimelineComponent implements OnInit {
-  posts: Post[] = [  ];
+  posts: Post[] = [];
 
   constructor(private postService: PostService) {}
 

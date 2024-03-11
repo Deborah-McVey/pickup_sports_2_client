@@ -105,6 +105,31 @@ concludes video "Front End Setup - Angular 17"
 
 # begin video "Angular to Rails API - Fetching Posts from Back End"
 
+set up environments
+
+ng g environments
+
+# src/environments/environment.development.ts
+
+export const environment = {
+  production: false,
+  apiUrl: 'http://localhost:3000'
+};
+
+# src/environments/environment.ts
+
+export const environment = {
+  production: true,
+  // TODO
+  apiUrl: 'http://www.production.com'
+};
+
+# post service
+
+ng g s core/services/post
+
+# src/app/core/services/post.service.ts
+
 
 
 
