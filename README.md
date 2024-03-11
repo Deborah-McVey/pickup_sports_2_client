@@ -130,10 +130,17 @@ ng g s core/services/post
 
 # src/app/core/services/post.service.ts
 
+see pickup_sports_2_api for more changes
 
+concludes video "Angular to Rails API - Fetching Posts from Back End"
 
+# begin video "Rails Seeds File - Populate users and posts"
 
+# db/seeds.rb (pickup_sports_2_api)
 
+concludes video "Rails Seeds File - Populate users and posts"
+
+# begin video "Fetching Events with Pagination"
 
 
 
