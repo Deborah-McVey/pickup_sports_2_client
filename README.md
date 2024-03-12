@@ -200,6 +200,12 @@ concludes video "Adding a Sidebar for additional routes"
 
 # begin video "Adding Logout to our Navbar"
 
+navigation components
+
+concludes video "Adding Logout to our Navbar"
+
+# begin video "Adding Auth Guards to Protect Routes"
+
 
 
 
