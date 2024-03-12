@@ -148,11 +148,15 @@ ng g c shared/components/navigation
 
 go to pickup_sports_2_api to install gem 'kaminari' for pagination
 
-create event model
+# create events component
+
+ng g c features/events
+
+# create event model
 
 ng g class shared/models/event
 
-create event service
+# create event service
 
 ng g s core/services/event
 
