@@ -188,6 +188,17 @@ concludes video "Building Login Functionality"
 
 # begin video Adding a Sidebar for additional routes
 
+# app/shared/components/navigation/navigation.component.html
+
+this is where I got the menu "hamburger" symbol: https://www.piliapp.com/symbol/menu/
+
+# app/shared/components/navigation/navigation.component.ts
+
+# app/shared/components/navigation/navigation.component.scss
+
+concludes video "Adding a Sidebar for additional routes"
+
+# begin video "Adding Logout to our Navbar"
 
 
 

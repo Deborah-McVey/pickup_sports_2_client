@@ -3,10 +3,10 @@
     <div class="nav-links">
 
       @if (isLoggedIn()) {
-        <span>Welcome, {{currentUser?.user_name}}.</span>
+        <span>Welcome, {{currentUser?.username}}.</span>
         <a (click)="logout()">Logout</a>
         <div class="menu-container" [class.active]="isSidebarVisible">
-          <button class="menu" (click)="toggleSidebar()">Menu</button>
+          <button class="menu" (click)="toggleSidebar()">☰</button>
         </div>
       } @else {
         <a routerLink="/login">Login</a>
