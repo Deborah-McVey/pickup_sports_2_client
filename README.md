@@ -172,6 +172,27 @@ app/shared/components/events/event.component.ts and html and scss
 
 concludes video "Fetching Events with Pagination" 
 
+# begin video "Building Login Functionality"
+
+ng g service core/services/authentication
+
+# went to pickup_sports_2_api and removed info from routes.rb
+
+# create login component
+
+ng g c features/auth/login
+
+app/features/auth/login/login.component.ts and html and scss
+
+concludes video "Building Login Functionality"
+
+# begin video Adding a Sidebar for additional routes
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-// import { Sport } from "./sport";
+import { Sport } from "./sport";
 import { User } from "./user";
 
 export class Event {
@@ -8,7 +8,7 @@ export class Event {
   start_date_time: string;
   end_date_time: string;
   created_at: string;
-  // sports: Sport[];
+  sports: Sport[];
   user: User;
 
   constructor(event:any) {
@@ -18,7 +18,7 @@ export class Event {
     this.start_date_time = event.start_date_time;
     this.end_date_time = event.end_date_time;
     this.created_at = event.created_at;
-    // this.sports = event.sports;
+    this.sports = event.sports;
     this.user = event.user || new User({})
   }
 }
