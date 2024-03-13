@@ -206,6 +206,26 @@ concludes video "Adding Logout to our Navbar"
 
 # begin video "Adding Auth Guards to Protect Routes"
 
+ng g guard core/guards/auth
+
+select CanActivate
+
+# app/core/guards/auth/auth.guard.ts
+
+# app.routes.ts
+
+ng g guard core/guards/no-auth
+
+select CanActivate
+
+# app.routes.ts
+
+put noAuthGuard on login
+
+conclude video "Adding Auth Guards to Protect Routes"
+
+
+
 
 
 
