@@ -8,7 +8,7 @@ import { environment } from '../../../environments/environment';
   providedIn: 'root'
 })
 export class UserService {
-  currentUserSubject = new BehaviorSubject<User | null>(null);
+  currentUserBehaviorSubject = new BehaviorSubject<User | null>(null);
 
   constructor(private http:HttpClient) { }
 

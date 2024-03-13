@@ -236,6 +236,19 @@ concludes video "Gather current user info on App Initialization"
 
 # begin video "Interceptor for attaching Tokens to requests"
 
+ng g interceptor core/interceptors/auth
+
+# app/core/interceptors/auth.interceptor.ts
+
+# navigation.component.ts
+
+# navigation.component.html
+
+concludes video "Interceptor for attaching Tokens to requests"
+
+# begin video "Fixing bugs for logout and login"
+
+
 
 
 

@@ -22,12 +22,12 @@ export function initializeUserData(
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    (
+    {
       provide: APP_INITIALIZER,
       useFactory: initializeUserData,
       deps: (UserService, AuthenticationService),
-      multi: true
-    )
+      multi: true,
+    },
     provideHttpClient(withInterceptors([authInterceptor])),
   ],
 };

@@ -13,13 +13,13 @@ import { User } from '../../models/user';
 export class NavigationComponent implements OnInit {
   isSidebarVisible:boolean = false;
   currentUser: User | null = null;
-  
+
   constructor(private authService:AuthenticationService, private userService:User) {}
 
   ngOnInit(): void {
-    this.userService.currentUserBehaviorSubject.subscribe((user) => (
+    this.userService.currentUserBehaviorSubject.subscribe((user) => {
       this.currentUser = user;
-    ))
+  })
   }
 
   // not optimal, should use behavior subject
