@@ -254,8 +254,19 @@ concludes video "Fixing bugs for logout and login"
 
 # begin video "Creating Sign Up"
 
+ng g c features/auth/signup
 
+# create a file inside auth folder to share scss for login and signup
 
+app/features/auth/auth.shared.scss
+
+change styleUrl for login.component.ts and signup.component.ts
+
+you can delete the files loging.component.scss and signup.component.scss
+
+you can use Fake Filler for dummy data to test
+
+conclude video "Creating Sign Up"
 
 
 
