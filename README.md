@@ -248,7 +248,11 @@ concludes video "Interceptor for attaching Tokens to requests"
 
 # begin video "Fixing bugs for logout and login"
 
+navigation.component.ts, authentication.service.ts
+ 
+concludes video "Fixing bugs for logout and login"
 
+# begin video "Creating Sign Up"
 
 
 
