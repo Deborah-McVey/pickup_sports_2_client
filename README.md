@@ -224,8 +224,17 @@ put noAuthGuard on login
 
 conclude video "Adding Auth Guards to Protect Routes"
 
+# begin video "Gather current user info on App Initialization"
 
+go to pickup_sports_2_api and add web controller
 
+# add user service
+
+ng g s core/services/user
+
+concludes video "Gather current user info on App Initialization"
+
+# begin video "Interceptor for attaching Tokens to requests"
 
 
 
