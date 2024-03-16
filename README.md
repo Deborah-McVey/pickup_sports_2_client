@@ -268,8 +268,28 @@ you can use Fake Filler for dummy data to test
 
 conclude video "Creating Sign Up"
 
+* will go back to Render and Vercel videos *
 
+# begin video "Create Event Details View"
 
+# app.routes.ts
 
+{
+    path: "events/:id",
+    loadComponent: () => import("./features/event-details/event-details.component").then((c) => c.EventDetailsComponent),
+    canActivate: [authGuard]
+  },
+
+ng g c features/event-details
+
+# shared/components/event/event/event.component.html
+
+# event.component.ts
+
+create a sport model
+
+add RouterLink
+
+concludes video "Create Event Details View"
 
 
