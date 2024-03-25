@@ -25,7 +25,7 @@ export const appConfig: ApplicationConfig = {
     {
       provide: APP_INITIALIZER,
       useFactory: initializeUserData,
-      deps: (UserService, AuthenticationService),
+      deps: [UserService, AuthenticationService],
       multi: true,
     },
     provideHttpClient(withInterceptors([authInterceptor])),

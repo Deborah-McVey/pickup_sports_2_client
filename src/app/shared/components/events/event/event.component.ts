@@ -11,4 +11,5 @@ import { RouterLink } from '@angular/router';
 })
 export class EventComponent {
   @Input({required:true}) event: Event = new Event({})
+  //@Input({required:true}) event: Event[] = [];
 }
