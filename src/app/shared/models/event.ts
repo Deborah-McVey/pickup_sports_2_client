@@ -8,17 +8,25 @@ export class Event {
   start_date_time: string;
   end_date_time: string;
   created_at: string;
-  sports: Sport[];
-  user: User;
+  guests: number;
+  has_joined: boolean;
+  participants: User[];
+  cover_image_url: string;
+  sports: Sport[]
+  creator: User;
 
-  constructor(event:any) {
+  constructor(event:any){
     this.id = event.id || 0;
     this.title = event.title || "";
-    this.content = event.content || "";
+    this.content = event.content || ""
     this.start_date_time = event.start_date_time;
     this.end_date_time = event.end_date_time;
+    this.cover_image_url = event.cover_image_url
     this.created_at = event.created_at;
     this.sports = event.sports;
-    this.user = event.user || new User({})
+    this.creator = event.creator || new User({})
+    this.guests = event.guests || 0;
+    this.has_joined = event.has_joined || false;
+    this.participants = event.participants || [];
   }
 }

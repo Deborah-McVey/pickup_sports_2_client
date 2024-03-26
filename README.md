@@ -292,4 +292,14 @@ add RouterLink
 
 concludes video "Create Event Details View"
 
+# working off source code
 
+ng g c features/create-event
+
+ng g service core/services/sport
+
+ng g service core/services/notification
+
+ng g c shared/components/popup
+
+ng g service core/services/popup
